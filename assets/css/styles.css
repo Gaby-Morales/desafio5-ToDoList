@@ -1,0 +1,26 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  background-color: #ebeceb !important;
+}
+
+label {
+  display: none;
+}
+
+.deleteTask {
+  color: red;
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+}
+
+table tr td * {
+  cursor: pointer;
+}
+
+table tr th {
+  min-width: 30px;
+}
